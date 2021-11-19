@@ -9,7 +9,7 @@ charset = 'simplified'
 exclude_single_character = False
 
 # max hsk level to include in deck (inclusive)
-max_hsk_level = 6
+max_hsk_level = 5 
 
 templates = []
 
@@ -67,7 +67,7 @@ hsk_model = genanki.Model(
     templates=templates,
     css=css)
 
-deck = genanki.Deck(1551711109, 'HSK 1-6 ' + charset)
+deck = genanki.Deck(1551711108, 'HSK 1-6 ' + charset)
 
 total = 0
 for i in range(1, max_hsk_level + 1):
